@@ -11,4 +11,14 @@ int main()
 	float aspectRatio = height / width;
 
 	ComplexPlane window(aspectRatio);
+
+/*	Font font;
+	font.loafFromFile("fonts/arial.ttf");
+
+	Text text;
+	text.setFont(font);
+*/
+
+	VertexArray vertices(Points);
+	vertices.resize(width * height);
 }
