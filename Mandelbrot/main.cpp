@@ -1,3 +1,4 @@
+#include "ComplexPlane.h"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 using namespace sf;
@@ -9,5 +10,5 @@ int main()
 	float height = VideoMode::getDesktopMode().height;
 	float aspectRatio = height / width;
 
-
+	ComplexPlane window(aspectRatio);
 }
