@@ -12,12 +12,12 @@ int main()
 
 	ComplexPlane window(aspectRatio);
 
-/*	Font font;
-	font.loafFromFile("fonts/arial.ttf");
+	Font font;
+	font.loadFromFile("fonts/arial.ttf");
 
 	Text text;
 	text.setFont(font);
-*/
+
 
 	VertexArray vertices(Points);
 	vertices.resize(width * height);
